@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-
-<title>About me</title>
+<head lang="em">
+<meta charset="utf-8">
+<title>Franfran</title>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <h1>About Me</h1>
-    <p>Hello world!</p>
+  
+ <h1>This is a heading</h1>
+ <p id="demo"></p>
+
+ <button type="button" onclick="document.getElementById('demo').innerHTML = x">Click Me To Display Time And Date</button>
+ 
+ <script>
+   function datefunc(date) {
+     return date
+   }
+
+   var x = datefunc(new Date);
+
+ </script>
+ 
 </body>
 
 </html>
